@@ -67,8 +67,14 @@ footer{
   margin: 10px 10px;
 }
 
+table{
+  border-collapse: collapse;
+}
+
 .column{
   padding-right: 100px;
+  text-align: left;
+  color: white;
 }
 thead > tr{
   background-color: #3DA9E5;
