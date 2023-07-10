@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 16px;
+}
 
 /* header  */
 header{
@@ -21,3 +24,10 @@ header{
 }
 
 /* main  */
+.title{
+
+}
+.caption{
+  width: 400px;
+  font-size: 0.8rem;
+}
