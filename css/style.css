@@ -2,13 +2,13 @@
 *{
   border: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 html{
   font-size: 16px;
 }
 
-/* header  */
 header{
   height: 100px;
  background-image: url(../img/pattern.png);
@@ -16,6 +16,11 @@ header{
  background-size: contain;
  
 }
+
+main{
+  padding-left: 15px;
+}
+/* header  */
 
 #logo{
   height: 50px;
@@ -25,9 +30,35 @@ header{
 
 /* main  */
 .title{
-
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
+
+.author, #date, li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.author > .name{
+  color: #4FA0FB;
+}
+
 .caption{
   width: 400px;
   font-size: 0.8rem;
+}
+
+.primary-paragraph{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.highlighter{
+  background-color: yellow;
+}
+
+.list{
+  margin: 10px 10px;
 }
