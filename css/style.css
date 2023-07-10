@@ -59,6 +59,16 @@ main{
   background-color: yellow;
 }
 
-.list{
+.list, table{
   margin: 10px 10px;
+}
+
+.column{
+  padding-right: 100px;
+}
+thead > tr{
+  background-color: #3DA9E5;
+}
+.row-lightblue{
+  background-color: #B1E5F2;
 }
