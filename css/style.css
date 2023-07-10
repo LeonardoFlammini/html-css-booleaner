@@ -17,8 +17,12 @@ header{
  
 }
 
-main{
+main, footer{
   padding-left: 15px;
+}
+
+footer{
+  margin-top: 40px;
 }
 /* header  */
 
@@ -59,7 +63,7 @@ main{
   background-color: yellow;
 }
 
-.list, table{
+.list{
   margin: 10px 10px;
 }
 
@@ -71,4 +75,25 @@ thead > tr{
 }
 .row-lightblue{
   background-color: #B1E5F2;
+}
+
+/* footer  */
+footer > span {
+  color: gray;
+}
+#img-1, #img-2{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 30px;
+  font-size: 2rem;
+  color: white;
+}
+#img-1{
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+}
+#img-2{
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
 }
